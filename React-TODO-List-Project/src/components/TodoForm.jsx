@@ -29,7 +29,7 @@ function TodoForm(){
       {/* Animated Gradient Border Layer */}
       <div className="relative rounded-2xl p-[3px] w-80 mr-8">
         <motion.div
-          className="absolute inset-0 rounded-2xl z-0"
+          className="absolute inset-0 rounded-2xl z-0 "
           animate={{ backgroundPosition: "200% center" }}
           transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
           style={{
