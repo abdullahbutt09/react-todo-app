@@ -27,7 +27,7 @@ function TodoForm(){
     return (
         <div className="flex flex-col items-center gap-6">
       {/* Animated Gradient Border Layer */}
-      <div className="relative rounded-2xl p-[3px] w-80 mr-4">
+      <div className="relative rounded-2xl p-[3px] w-80 mr-8">
         <motion.div
           className="absolute inset-0 rounded-2xl z-0"
           animate={{ backgroundPosition: "200% center" }}
@@ -68,7 +68,7 @@ function TodoForm(){
         className="flex gap-4 mr-2"
       >
         <input
-          className="p-3 w-78 outline-none bg-gray-800 rounded-xl ml-12"
+          className="p-3 w-78 outline-none bg-gray-800 rounded-xl ml-4"
           type="text"
           placeholder="write your todo here"
           value={todo}
